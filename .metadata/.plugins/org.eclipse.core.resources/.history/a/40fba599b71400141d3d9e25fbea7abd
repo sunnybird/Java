@@ -1,0 +1,10 @@
+
+public class Demo {
+
+	public static Demo demo = null;
+	
+	public void isAlive(){
+		
+		System.out.println("I am alive...........");
+	}
+}
