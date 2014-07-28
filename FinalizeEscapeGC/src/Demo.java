@@ -1,4 +1,6 @@
-
+/**
+ * 本程序模拟对象可以逃脱一次垃圾回收
+ ** /
 public class Demo {
 
 	public static Demo demo = null;
