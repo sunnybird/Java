@@ -1,4 +1,6 @@
-
+/**
+ * 该程序模拟线程死锁情况
+ * */
 public class LocalThread {
 
 	public static void main(String[] args) {
@@ -23,7 +25,7 @@ public class LocalThread {
 
 		@Override
 		public void run() {
-		
+	           	//发生死锁
 			synchronized(Integer.valueOf(a)){
 				synchronized(Integer.valueOf(b)){
 					
