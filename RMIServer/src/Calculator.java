@@ -1,5 +1,5 @@
 /**
- * 服务接口定义
+ * 瀹氫箟鏈嶅姟璋冪敤鎺ュ彛
  */
 import java.rmi.Remote; 
 public interface Calculator extends Remote{
