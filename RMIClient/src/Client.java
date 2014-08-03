@@ -1,5 +1,5 @@
 /**
- * ¿Í»§¶Ëµ÷ÓÃ·şÎñÆ÷
+ * åˆ›å»ºæœåŠ¡å®ä½“å¹¶ç»‘å®š
  */
 import java.net.MalformedURLException;
 import java.rmi.Naming;
