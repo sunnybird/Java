@@ -6,23 +6,17 @@ public class DeadlockSample {
 	
 	public static void main(String[] args){
 		
-		
 		DeadlockSample dls = new DeadlockSample();
 		dls.testDeadlock();
 	}
-	
-	
-	
 	
 	private void testDeadlock(){
 		
 		Thread t1 = new Thread(new Runnable(){
 			
-			
 			public void run(){
 				
 				callLock2();
-				
 			}
 		});
 		
@@ -30,9 +24,9 @@ public class DeadlockSample {
 			
 			public void run(){
 				callLock1();
-				
 			}
 		});
+
 		t1.start();
 		t2.start();
 	}
@@ -57,7 +51,6 @@ public class DeadlockSample {
 			synchronized(obj1){
 				
 				sleep();
-				
 				
 			}
 		}
